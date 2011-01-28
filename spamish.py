@@ -42,7 +42,7 @@ class Spamish(object):
     @property
     def headers(self):
         return {
-            'User-Agent': self.USER_AGENT,
+            'User-Agent': self.user_agent,
             # 'Content-Type': "application/x-www-form-urlencoded; charset=%s" % self.encoding,
         }
 
